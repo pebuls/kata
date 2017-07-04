@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd467ca-8a02-4990-aa7d-59d9bd551dd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pebuls/kata/Board.class" afterPath="$PROJECT_DIR$/target/classes/pebuls/kata/Board.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pebuls/kata/Cell.class" afterPath="$PROJECT_DIR$/target/classes/pebuls/kata/Cell.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pebuls/kata/BoardTest.class" afterPath="$PROJECT_DIR$/target/test-classes/pebuls/kata/BoardTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kata.iml" afterPath="$PROJECT_DIR$/kata.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pebuls/kata/Board.java" afterPath="$PROJECT_DIR$/src/main/java/pebuls/kata/Board.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pebuls/kata/Cell.java" afterPath="$PROJECT_DIR$/src/main/java/pebuls/kata/Cell.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pebuls/kata/BoardTest.java" afterPath="$PROJECT_DIR$/src/test/java/pebuls/kata/BoardTest.java" />
     </list>
     <list id="bdacbe70-8577-4efa-9463-13818f0af193" name="1 testgreen" comment="" />
@@ -27,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BoardTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BoardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pebuls/kata/BoardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="45" />
+            <state relative-caret-position="333">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pebuls/kata/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="217">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="e#147#148#0" expanded="true" />
                 <element signature="e#178#179#0" expanded="true" />
@@ -254,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BoardTest.twoCellsNextToEachOtherShouldBeNeighbors">
+  <component name="RunManager" selected="JUnit.BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors">
     <configuration default="false" name="BoardTest.aSingleCellShouldHaveZeroNeighbors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -294,6 +286,32 @@
       <option name="PACKAGE_NAME" value="pebuls.kata" />
       <option name="MAIN_CLASS_NAME" value="pebuls.kata.BoardTest" />
       <option name="METHOD_NAME" value="twoCellsNextToEachOtherShouldBeNeighbors" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pebuls.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="kata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pebuls.kata" />
+      <option name="MAIN_CLASS_NAME" value="pebuls.kata.BoardTest" />
+      <option name="METHOD_NAME" value="aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -687,14 +705,16 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.aSingleCellShouldHaveZeroNeighbors" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.aSingleCellShouldHaveZeroNeighbors" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BoardTest.aSingleCellShouldHaveZeroNeighbors" />
       </list>
     </recent_temporary>
   </component>
@@ -713,9 +733,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BoardTest_aSingleCellShouldHaveZeroNeighbors - 2017.07.04 at 22h 39m 56s.xml">
-      <configuration name="BoardTest.aSingleCellShouldHaveZeroNeighbors" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BoardTest_aSingleCellShouldHaveZeroNeighbors - 2017.07.04 at 22h 41m 19s.xml">
       <configuration name="BoardTest.aSingleCellShouldHaveZeroNeighbors" configurationId="JUnit" />
     </history-entry>
@@ -724,6 +741,12 @@
     </history-entry>
     <history-entry file="BoardTest_aSingleCellShouldHaveZeroNeighbors - 2017.07.04 at 22h 47m 02s.xml">
       <configuration name="BoardTest.aSingleCellShouldHaveZeroNeighbors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors - 2017.07.04 at 23h 15m 45s.xml">
+      <configuration name="BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BoardTest_aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors - 2017.07.04 at 23h 16m 40s.xml">
+      <configuration name="BoardTest.aTwoSingleCellsFarFromEachOtherShouldHaveZeroNeighbors" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BoardTest_twoCellsNextToEachOtherShouldBeNeighbors - 2017.07.04 at 23h 01m 42s.xml">
       <configuration name="BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" configurationId="JUnit" />
@@ -737,9 +760,12 @@
     <history-entry file="BoardTest_twoCellsNextToEachOtherShouldBeNeighbors - 2017.07.04 at 23h 06m 14s.xml">
       <configuration name="BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BoardTest_twoCellsNextToEachOtherShouldBeNeighbors - 2017.07.04 at 23h 13m 46s.xml">
+      <configuration name="BoardTest.twoCellsNextToEachOtherShouldBeNeighbors" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2822000" />
+    <option name="totallyTimeSpent" value="3005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="24" width="650" height="744" extended-state="4" />
@@ -754,7 +780,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31229773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31229773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33495146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -896,23 +922,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pebuls/kata/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pebuls/kata/BoardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="333">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pebuls/kata/BoardTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pebuls/kata/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="35" column="45" lean-forward="false" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="217">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
