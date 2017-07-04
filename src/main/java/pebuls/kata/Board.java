@@ -20,7 +20,6 @@ public class Board {
         }
 
         return neighbours;
-
     }
 
     private boolean isAlive(Cell c) {
