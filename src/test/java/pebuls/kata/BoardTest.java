@@ -2,13 +2,12 @@ package pebuls.kata;
 
 import org.junit.Test;
 
-import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class BoardTest {
-
 
     @Test
     public void aSingleCellShouldHaveZeroNeighbors() throws Exception {
@@ -16,7 +15,7 @@ public class BoardTest {
         Board board = new Board();
         board.addCell(new Cell(0, 0));
 
-        List<Cell> neighbors = board.getNeighbors(new Cell(0, 0));
+        Set<Cell> neighbors = board.getNeighbors(new Cell(0, 0));
 
         assertEquals(0, neighbors.size());
     }
@@ -30,8 +29,8 @@ public class BoardTest {
         board.addCell(first);
         board.addCell(second);
 
-        List<Cell> neighborsOfFirstCell = board.getNeighbors(first);
-        List<Cell> neighborsOfSecondCell = board.getNeighbors(second);
+        Set<Cell> neighborsOfFirstCell = board.getNeighbors(first);
+        Set<Cell> neighborsOfSecondCell = board.getNeighbors(second);
 
         assertArrayEquals(new Cell[] { second }, neighborsOfFirstCell.toArray());
         assertArrayEquals(new Cell[] { first }, neighborsOfSecondCell.toArray());
@@ -44,7 +43,7 @@ public class BoardTest {
         board.addCell(new Cell(0, 0));
         board.addCell(new Cell(0, 100));
 
-        List<Cell> neighbors = board.getNeighbors(new Cell(0, 0));
+        Set<Cell> neighbors = board.getNeighbors(new Cell(0, 0));
 
         assertEquals(0, neighbors.size());
     }
@@ -52,19 +51,22 @@ public class BoardTest {
     @Test
     public void middleCellOf3x3BlockShouldHaveEightNeighbors() throws Exception {
 
-        Board board = new Board();
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
-                board.addCell(new Cell(i, j));
-            }
-        }
+        Board board = createBlockBoard(3, 3);
 
-        List<Cell> neighbors = board.getNeighbors(new Cell(1, 1));
+        Set<Cell> neighbors = board.getNeighbors(new Cell(1, 1));
 
         assertEquals(8, neighbors.size());
     }
 
-
+    private Board createBlockBoard(int w, int h) {
+        Board board = new Board();
+        for (int i = 0; i < w; i++) {
+            for (int j = 0; j < h; j++) {
+                board.addCell(new Cell(i, j));
+            }
+        }
+        return board;
+    }
 
 
 }
