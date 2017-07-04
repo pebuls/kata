@@ -12,10 +12,12 @@ public class Board {
     public List<Cell> getNeighbors(Cell cell) {
         List<Cell> neighbours = new ArrayList<>();
 
-        for (int dy = -1; dy <= 1; dy++)    {
-            Cell c = new Cell(cell.x, cell.y + dy);
-            if(isAlive(c) && !c.equals(cell))  {
-                neighbours.add(c);
+        for (int dx = -1; dx <= 1; dx++) {
+            for (int dy = -1; dy <= 1; dy++) {
+                Cell c = new Cell(cell.x + dx, cell.y + dy);
+                if(isAlive(c) && !c.equals(cell)) {
+                    neighbours.add(c);
+                }
             }
         }
 
